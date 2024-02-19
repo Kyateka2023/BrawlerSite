@@ -1,0 +1,496 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Text', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100dvh;
+    background-color: #004E98;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.entire-section
+{
+    height: 100%;
+    padding: 0 1rem;
+    background-color: #004E98;
+    color: whitesmoke;
+    overflow: auto;
+}
+
+header
+{
+    height: 10dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-part1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+nav
+{
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.5rem;
+}
+
+.nav-links
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.nav-links:hover
+{
+    background-color: #ebebeb;
+    color: black;
+}
+
+.nav-links:active
+{
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.header-part2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 0.25rem;
+    position: relative;
+}
+
+.sign
+{
+    border: none;
+    width: 110px;
+    font-size: 1rem;
+    height: 45px;
+    margin: 0 0.8rem;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #ebebeb;
+    transition: all 0.25s;
+}
+
+.login
+{
+    border: none;
+    width: 110px;
+    font-size: 1rem;
+    height: 45px;
+    margin: 0 0.8rem;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: transparent;
+    color: whitesmoke;
+    transition: all 0.25s;
+}
+
+.login:hover
+{
+    background-color: #ebebeb;
+    color: black;
+}
+
+.login:active
+{
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+.sign:active
+{
+    opacity: 0.9;
+    transform: scale(0.9);
+}
+
+
+/* ON to the next section */
+section
+{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin: 1rem 0;
+}
+
+h1
+{
+    font-size: 2rem;
+    width: 600px;
+    margin-bottom: 3rem;
+}
+
+.button-holder
+{
+    border: 1px solid white;
+    padding: 0.2rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.monthly
+{
+    border: none;
+    font-size: 1rem;
+    padding: 0.75rem;
+    color: black;
+    background-color: #ebebeb;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.annual
+{
+    border: none;
+    font-size: 1rem;
+    padding: 0.75rem;
+    color: whitesmoke;
+    background-color: transparent;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.25s;
+}
+
+.annual:hover
+{
+    color: black;
+    background-color: #ebebeb;   
+}
+
+.price-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price1
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2rem 0;
+    height: 900px;
+    width: 475px;
+    margin: 1.5rem auto;
+}
+
+.price2
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2rem 0;
+    height: 900px;
+    width: 475px;
+    margin: 1.5rem auto;
+}
+
+hr
+{
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.pricing-title, .plan-growth, .price-part, .price-button-holder, .features-part
+{
+    margin: 1rem 1rem;
+    font-size: 1.1rem;
+}
+
+.pricing-title
+{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.business-plan
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.span
+{
+    background-color: #ff6700;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.15rem;
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.price-part
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.prices 
+{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.plan-growth
+{
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.price-button-holder
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.started
+{
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    background-color: #004E98;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem
+}
+
+.sales
+{
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    background-color: #004E98;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1.2rem
+}
+
+h4
+{
+    margin: 0.25rem 0;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.plan-notice
+{
+    margin-bottom: 1rem;
+}
+
+.fa-circle-check
+{
+    color: #ff6700;
+}
+
+.price-pz
+{
+    line-height: 2;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (width >= 1070px)
+{
+    .small-div, .fa-bars
+    {
+        display: none;
+    }
+}
+
+@media screen and (width <= 1070px)
+{
+
+    .login, .sign, nav
+    {
+        display: none;
+    }
+
+    .header-part2
+    {
+        height: auto;
+        padding: 0;
+    }
+
+    .fa-bars
+    {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.25s;
+    }
+
+    .fa-bars:hover
+    {
+        background-color: #ebebeb;
+        color: black;
+    }
+
+    .small-div
+    {
+        box-shadow: 5px 5px black;
+        position: absolute;
+        right: 0;
+        top: 40px;
+        width: 250px;
+        background-color: #ebebeb;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        transition: 0.25s;
+    }
+
+    .droid-link
+    {
+        text-align: center;
+        color: black;
+        padding: 1rem;
+        transition: all 0.25s;
+        cursor: pointer;
+    }
+
+    .droid-link:hover
+    {
+        background-color: #ff6700;
+    }
+
+}
+
+@media screen and (width <= 768px)
+{
+    h1
+    {
+        width: 400px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (width <= 480px)
+{
+    h1
+    {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .monthly, .annual
+    {
+        font-size: 0.9rem;
+        padding: 0.6rem;   
+    }
+
+    .pricing-title
+    {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .span
+    {
+        border-radius: 20px;
+        padding: 0.1rem;
+        width: 70px;
+        font-size: 0.8rem;
+    }
+
+    .prices
+    {
+        font-size: 2.2rem;
+    }
+
+    .user-p
+    {
+        font-size: 0.8rem;
+    }
+
+    .plan-growth
+    {
+        font-size: 1rem;
+    }
+
+    .started
+    {
+        margin: 0.5rem 0;
+        padding: 0.8rem;
+        border-radius: 10px;
+        font-size: 1rem
+    }
+
+    .sales
+    {
+        margin: 0.5rem 0;
+        padding: 0.8rem;
+        border-radius: 10px;
+        font-size: 1rem
+    }
+
+    h4
+    {
+        margin: 0.25rem 0;
+        font-size: 1.1rem;
+    }
+
+    .price-pz
+    {
+        line-height: 2;
+        font-size: 1.1rem;
+    }
+
+    .plan-notice
+    {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+}
